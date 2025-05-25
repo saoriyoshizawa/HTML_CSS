@@ -1,0 +1,62 @@
+p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.heading1 {
+  color: red;
+}
+.heading2 {
+  color: red;
+}
+.heading3 {
+  color: red;
+}
+.paragraph1 {
+  color: blue;
+}
+
+.blue{
+  color: skyblue;
+}
+.pink{
+  color: rgb(255, 192, 203);
+}
+
+body{
+  text-align: center;
+}
+h1{
+  font-size: 48px;
+}
+h1{
+  letter-spacing: 1.2em;
+}
+h1{
+  text-shadow: 1px 1px 2px gray;
+}
+h1 {
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+h1{
+  .noto-sans-jp-<uniquifier> 
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#basic > p {
+  font-weight: bold;
+}
+.paragraph2 {
+  color: blue;
+}
+.paragraph3 {
+  color: blue;
+}
+
+body {
+  font-family: "Arial", "Meiryo"; sans-serif；
+  font-size: 20px;
+}
