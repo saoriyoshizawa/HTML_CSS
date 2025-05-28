@@ -1,0 +1,79 @@
+#top {
+    width: 800px;
+    background-color: #dcc9f4;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* 図形を中央寄せする */
+    box-sizing: border-box;
+}
+.top-child {
+    background-color: #ffd9df;
+    display: inline-block;
+    margin: 0 auto; /* 図形の間隔を設定する */
+    box-sizing: border-box;
+    width: 20%;
+}
+
+#middle {
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ffd9df;
+}
+
+#middle-child01,
+#middle-child02,
+#middle-child03 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+}
+
+#middle-child01 {
+    top: 100px;
+    left: 100px;
+}
+
+#middle-child02 {
+    top: 300px;
+    left: 300px;
+}
+
+#middle-child03 {
+    top: 500px;
+    left: 500px;
+}
+
+#bottom {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #87ceeb;
+}
+
+#bottom-child01 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+}
+
+#bottom-child02 {
+    position: relative;
+    left: 200px;
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+}
+
+#bottom-child03 {
+    position: relative;
+    left: 400px;
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+}
